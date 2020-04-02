@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         if secondsPassed < totalTime {
             secondsPassed += 1
             progressBar.progress = Float(secondsPassed) / Float(totalTime)
-            print(Float(secondsPassed) / Float(totalTime))
+//            print(Float(secondsPassed) / Float(totalTime))
         } else {
             timer.invalidate()
             titleLabel.text = "DONE!"
